@@ -101,3 +101,26 @@ p{
     font-size: 15px;
     margin-left:5rem; 
 }
+
+/* .registrationform div h1{
+    margin: 0;
+    margin-left: 20rem;
+} */
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.registrationform {
+    margin-bottom: 5rem;
+    background-color: white;
+    height: 60rem;
+    width: 70rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0,.3);
+}
+
+regcontext input{
+    padding: 0;
+}
