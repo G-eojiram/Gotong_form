@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <form action="#" class="signupform">
+        <h2>SIGN UP</h2>
+        <div>
+            <label for="username">Username:</label><br/>
+            <input type="text" name="username" placeholder="Enter Username" autofocus>
+        </div>
+        <div>
+            <label for="password">Password:</label><br/>
+            <input type="password" name="password" placeholder="Enter Password" autofocus>
+        </div>
+        <div>
+            <label for="passconfirm">Confirm Password:</label><br/>
+            <input type="password" name="passconfirm" placeholder="Enter Password" autofocus>
+        </div>
+        <div>
+            <label for="birthdate">Birthdate:</label><br/>
+            <input type="date" name="birthdate" placeholder="Enter Password" autofocus>
+        </div>
+        <div class="otherdetails">
+            <div class="gendercontent">
+                <label for="gender">Gender:</label><br>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="termsdetails">
+                <input type="checkbox" name="TAC">I accept and understand the terms and regulations.
+            </div>
+            <div>
+                <button type="submit" value="Login" id="BTregister">
+                    Register
+                </button>
+            </div>
+            <div class="signagain">
+                Already have an Account? <br/>
+                <a href="index.html">
+                    Sign in.
+                </a>
+            </div>
+        </div>
+</body>
+</html>

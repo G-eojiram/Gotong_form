@@ -1,0 +1,103 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    background-color: white;
+    height: 25rem;
+    width: 30rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0,.3);
+}
+
+.signupform{
+    background-color: white;
+    height: 580px;
+    width: 30rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0,.3);
+}
+.signupform h2{
+    margin-top: 2.5rem;
+    margin-left: 12.5rem;
+    font-weight: bolder;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center ;
+}
+
+a{
+    font-size: 12px;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;        
+    margin-left: 9rem;
+    width: 12rem;
+}
+
+h2{
+    margin-top: 3.5rem;
+    margin-left: 12.5rem;
+    font-weight: bolder;
+}
+
+label{
+    margin-bottom: 100rem;
+    margin-left: 9.5rem;
+    font-size: 1em;
+}
+
+p{
+    margin-left: 8.2rem;
+}
+
+#BTlogin{
+    margin-top: 5px;
+    margin-left: 9.3rem;
+    color: black;
+    padding: 10px;
+    width: 13rem;
+}
+
+.otherdetails{
+    margin-left: 8.2rem; 
+}
+
+.gendercontent label{
+    margin-left: 1rem; 
+}
+
+.gendercontent section{
+    margin-left: 100rem;
+}
+
+#BTregister{
+    margin-top: 5px;
+    margin-left: 1.1rem;
+    color: black;
+    padding: 10px;
+    width: 13rem;
+}
+
+.termsdetails input{
+    margin-right: 5rem;
+    margin-top: 2px;
+}
+
+.signagain{
+    margin-top: 1rem;
+    margin-left: 0.5rem; 
+}
+
+.signagain a{
+    font-size: 15px;
+    margin-left:5rem; 
+}
